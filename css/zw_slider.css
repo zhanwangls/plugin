@@ -1,0 +1,25 @@
+/* 滑块 */
+.zwui-slider {
+    background: none repeat scroll 0 0 #ccc;
+    margin: 10px 0;
+    position: relative;
+	width:600px;
+	margin:20px auto;
+}
+.zwui-slider-horizontal {
+    display: block;
+    height: 5px;
+}
+.zwui-slider-horizontal a {
+	margin-left: -8px;
+    background: url("../images/sliderhor.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 14px;
+    position: absolute;
+    top: -5px;
+    width: 17px;
+    display: inline-block;
+    z-index: 2;
+}
+.zwui-slider a:hover {
+    box-shadow:0 0 5px rgba(0,0,255,0.3);
+}

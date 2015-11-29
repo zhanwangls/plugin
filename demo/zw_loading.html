@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+		<!--声明编码当前页面的编码集。charset=gbk,gb2312(中文编码),utf-8(国际编码)-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--当前页面三要素-->
+        <title>loading提示框----demo</title>
+        <meta name="keyword" content="" />
+        <meta name="description" content="" />
+        <!--css-->
+		<link rel="stylesheet" type="text/css" href="../css/plugins.css" />
+        <style type="text/css">
+			
+			
+        </style>
+	</head>
+    <body>
+		<!-- 
+			1、写页面样式----自动宽度，宽度大于一定时给一个固定宽度，以便换行，居中
+			2、更改文字----有层存在时，更改文字，没有层存在时，弹出层
+			3、关闭----点击、自动关闭
+			4、遮罩层
+			5、固定宽度
+			6、文件分包
+			7、方便用户体验：----只改变内容和timer时，不用放在{}中。不用new
+			8、文档
+		-->
+
+		fdfdsfdsfdsffsfsd
+		
+		<script type="text/javascript" src="../util/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="../util/zwUtil.js"></script>
+		<script type="text/javascript" src="../zw_loading.js"></script>
+		<script type="text/javascript">
+			
+
+			zwLoading({content:"请耐心等待，正在为您努力加载中...请耐心等待，正在为您努力加载中...",mark:"slideUp",time:10,overlay:true,w:200,h:60});
+			zwLoading({content:"请耐心等待",mark:"slideUp",time:10,overlay:true,w:200,h:60});
+
+			/*$.ajax({
+				type:"post",
+				beforeSend:function(){
+					alert(1);
+					new zw_loading({content:"请耐心等待，正在为您努力加载中...请耐心等待，正在为您努力加载中..."});
+				},
+				success:function(){
+					alert(0);
+					new zw_loading({content:"请耐心等待，正在为您努力加载中..."});
+				}
+			});*/
+			
+			
+		</script>
+    </body>
+</html>

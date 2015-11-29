@@ -1,0 +1,3 @@
+/* loading提示框 */
+#zwui-loading{background:#141414;color:#fff;box-shadow:3px 3px 1em #333;position:fixed;padding:6px;z-index:100;border-radius:4px;}
+#zwui-loading #zwui-loading-cnt{padding:5px 16px;overflow:hidden;text-align:center;}
