@@ -75,7 +75,7 @@ zw_loading.prototype = {
 	},
 	_timer : function(opts,$dom){
 		var timer = null;
-		if(opts.time > 0){
+		if(opts.time >= 0){
 			clearTimeout(timer);
 			timer = setTimeout(function(){
 				$dom.trigger("click");
