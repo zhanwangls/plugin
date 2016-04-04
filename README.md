@@ -6,7 +6,8 @@ JavaScript Plugin
 1. 引入zw-loading.js 和 jquery.js 文件
 2. zwLoading({content:"请耐心等待",mark:"slideUp",time:10,overlay:true,w:200,h:60});  
    or  
-	 new zw_loading({content:"请耐心等待，正在为您努力加载中..."});
+	 new zw_loading({content:"请耐心等待，正在为您努力加载中..."});  
+  （如果需要在特定时刻移除加载框，则重新调用上面代码，将time设为0即可）
 
 ###### 参数
 	content：必选项，提示内容  
